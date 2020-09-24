@@ -7,6 +7,7 @@ object test {
     val spark = SparkHelper.getSparkSession("test","local[2]")
 
     //a little test
+    //a little test 2
     spark.sparkContext.setLogLevel("WARN")
     spark.sql(
       """
